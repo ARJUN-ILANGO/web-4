@@ -1,0 +1,84 @@
+h1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 400;
+    margin-left: 500px;
+    
+    
+}
+
+.origamiFull{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding: 32px;
+    margin: auto;
+    
+}
+
+.origami {
+    
+    border-radius: 20px;
+    /* background-color:#52C0A5; */
+    
+    width:310px;
+    font-family: 'Arial Narrow Bold';
+    padding: 32px;
+    margin: auto;
+    
+}
+
+h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+
+}
+
+.origamiFull img{
+    border: 2px solid #282C35;
+    border-radius: 50px;
+}
+.origamiFull ol {
+    border: 5px solid black;
+    border-radius: 7px;
+}
+
+/* html{
+    background-color: #52C0A5;
+} */
+
+body{
+    margin: 0px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: blue;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+body{
+     background: linear-gradient(to right,#00AAFF,#FF0000,#FFFF00,#FFAE33,#37FF33,#33FFFD,#ffbb00,#eeff00,#3cff00,#00ccff) ; 
+    /* background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); FF3.6+ */
+}
+
+.Make{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Make img{
+    border: 2px solid #282C35;
+    border-radius: 50px;
+    
+}
